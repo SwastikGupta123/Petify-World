@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(243, 243, 245);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1650px;
+    width: 1300px;
+    
+}
+/* NAVIGATION BAR*/
+#navbar{
+    display:block;
+    align-items: center;
+
+}
+/*NAVIGATION BAR: LOGO AND IMAGE*/
+#logo
+{
+display:inline-block ;
+position: absolute;
+margin: 10px 35px;
+}
+#logo img{
+    margin: 1px 18px;
+    height: 90px ;
+
+}
+/*NAVIGATION BAR: list styling*/
+#navbar ul{
+    position: absolute;
+    margin-left:200px;
+    margin-top: 45px;
+}
+#navbar::before{
+    position: absolute;
+    content: "";
+    height: 20%;
+    width: 100%;
+    z-index: -1;
+    opacity:.4;
+}
+
+
+#navbar ul li{ 
+    display: inline-block;
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+#navbar ul li a{ 
+    display: inline-block;
+    padding: 3px 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: brown;
+
+
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:active
+{ 
+   text-decoration: underline;
+   background-color:aqua;
+}
+#head{ 
+    font-size:50px; 
+    margin-left: 600px;
+    text-decoration: underline; 
+    font-style: italic;
+    margin-top: 15px;
+    color: red;
+}
+    .container{
+    position: absolute;
+    display: flex;
+    margin: 0px  80px;
+    }
+    .container img{
+        width: 250px;
+        height:250px;
+    }
+    .vpn{
+        font-family: 'Original Surfer', cursive;  
+        font-size: 20px;
+        color:darkcyan;
+        margin-top: 250px;
+        margin-left:40px;
+    }
+        #head1{ 
+            font-size:50px; 
+            margin-left: 600px;
+            text-decoration: underline; 
+            font-style: italic;
+            margin-top: 30px;
+            color: red;
+             }
